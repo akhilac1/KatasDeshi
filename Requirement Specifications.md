@@ -20,7 +20,7 @@ Farmacy Food is a tech-enabled healthy food startup that takes the “Let food b
 2.	Consumers can select a meal of their choice via web or mobile : **Performance**
 3.	Process personal data and health data of the consumers and recommend food : **Data Privacy, Security, Compliance** with Health data processing standards
 4.	Integration with Smart Fridge, PoS at Kiosk, Partner Systems for promotion management, partner vendors - **Interoperability**
-5.	Expand to other locations and larger user base - **Scalability** 
+5.	Expand to other locations and larger user base - **Modularity** 
 
 ### Domain Requirements
 1.   Consumers can browse and choose the food items 
