@@ -16,3 +16,4 @@
  8. Enrich the features 
 
 For the purpose of this Kata, we will work through steps 1 - 4
+Please refer to the Architecture folder for the artifacts created by the team.
