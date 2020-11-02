@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T09:55:48.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.58" etag="U1kFrP9aLtpCerXz9VSV" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T13:10:18.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.58" etag="yr5G0Dh1DMsgiE2lsnul" version="13.8.8" type="github" pages="2">
   <diagram id="fVWFABpuszNTQpYxr95X" name="Page-1">
-    <mxGraphModel dx="1315" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nGQSlZE8-hShHwP_MxRn-38" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=5.5999755859375;rotation=90;fillColor=#FFFFFF;strokeWidth=3;strokeColor=#0055AB;" vertex="1" parent="1">
-          <mxGeometry x="493.75" y="152.75" width="22.5" height="390" as="geometry" />
+          <mxGeometry x="477.5" y="229" width="22.5" height="237.25" as="geometry" />
         </mxCell>
         <mxCell id="nGQSlZE8-hShHwP_MxRn-45" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGQSlZE8-hShHwP_MxRn-39" target="nGQSlZE8-hShHwP_MxRn-42">
           <mxGeometry relative="1" as="geometry" />
@@ -143,22 +143,194 @@
           <mxGeometry x="620" y="163" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nGQSlZE8-hShHwP_MxRn-61" value="Order" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="690" y="164" width="70" height="30" as="geometry" />
+          <mxGeometry x="620" y="224" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nGQSlZE8-hShHwP_MxRn-62" value="Inventory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="395" y="219" width="75" height="30" as="geometry" />
+          <mxGeometry x="730" y="219" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGQSlZE8-hShHwP_MxRn-196" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGQSlZE8-hShHwP_MxRn-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nGQSlZE8-hShHwP_MxRn-63" value="Kitchen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="513.5" y="269" width="85.5" height="30" as="geometry" />
+          <mxGeometry x="850" y="219" width="85.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nGQSlZE8-hShHwP_MxRn-64" value="Device Management" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="395" y="264" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nGQSlZE8-hShHwP_MxRn-65" value="Subscription" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="500" y="210" width="90" height="30" as="geometry" />
+          <mxGeometry x="360" y="269" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nGQSlZE8-hShHwP_MxRn-67" value="Prebook" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="604.5" y="205" width="105.5" height="35" as="geometry" />
+          <mxGeometry x="830" y="101" width="105.5" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4g1sLS9ZxyO3pnEhyxsM" name="Page-2">
+    <mxGraphModel dx="1038" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-0" />
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-1" parent="7_nYSNDwSs5SFmlw5uWX-0" />
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#cce5ff;strokeColor=#99CCFF;opacity=30;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="60" y="160" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--51" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="50" y="246" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--59" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;rotation=0;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="14" y="165" width="50" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.003;exitY=0.624;exitDx=0;exitDy=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=12;fontColor=#3333FF;dashed=1;exitPerimeter=0;" edge="1" parent="7_nYSNDwSs5SFmlw5uWX-1" source="tpDQo5Wyh6sioc5v_al--39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="276" as="sourcePoint" />
+            <mxPoint x="60" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=9;fontColor=#3333FF;" edge="1" parent="7_nYSNDwSs5SFmlw5uWX-1" source="tpDQo5Wyh6sioc5v_al--39" target="tpDQo5Wyh6sioc5v_al--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--39" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="440" y="200" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=9;fontColor=#3333FF;" edge="1" parent="7_nYSNDwSs5SFmlw5uWX-1" source="tpDQo5Wyh6sioc5v_al--14" target="tpDQo5Wyh6sioc5v_al--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--14" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="606" y="44" width="110" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.898;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=12;fontColor=#3333FF;" edge="1" parent="7_nYSNDwSs5SFmlw5uWX-1" source="tpDQo5Wyh6sioc5v_al--6" target="tpDQo5Wyh6sioc5v_al--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--6" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;gradientColor=#ffffff;fillColor=#FFFFFF;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="443" y="46" width="128" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="20" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/digital-banking-solid-fast-transfer/512/fingerprint_login-128.png;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="482" y="84" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-5" value="Identity and Access Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="453" y="53" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-6" value="" style="endArrow=classic;html=1;" edge="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="230" as="sourcePoint" />
+            <mxPoint x="260" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-7" value="&lt;font face=&quot;Segoe UI Light&quot; style=&quot;font-size: 9px;&quot;&gt;Launch App&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="66" y="212" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7_nYSNDwSs5SFmlw5uWX-8" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="53" y="212" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--0" value="&lt;font face=&quot;Segoe UI Light&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Segoe+UI+Light&quot;&gt;WAF&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;rotation=0;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="261" y="180" width="50" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=12;fontColor=#3333FF;" edge="1" parent="7_nYSNDwSs5SFmlw5uWX-1" source="tpDQo5Wyh6sioc5v_al--1" target="tpDQo5Wyh6sioc5v_al--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--1" value="Load&lt;br&gt;Balancer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="340" y="180" width="50" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--5" value="" style="endArrow=classic;html=1;exitX=1.028;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.088;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7_nYSNDwSs5SFmlw5uWX-1" source="tpDQo5Wyh6sioc5v_al--0" target="tpDQo5Wyh6sioc5v_al--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="330" as="sourcePoint" />
+            <mxPoint x="330" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/food-delivery-outline-stay-home/512/Menu-128.png;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="626" y="69" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--15" value="Menu Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="598" y="44" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--18" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.looking_glass;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="674" y="72" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--20" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=5;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;rotation=90;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="442.5" y="502.5" width="25" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--21" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="220" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--22" value="Telemetry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="250" y="790" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/solid-amenities-icon-set/64/Refrigerator_2-128.png;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="99" y="450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/street-food-and-food-trucker-1/64/kiosk-trolley-street-food-asian-128.png;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="99" y="502.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--25" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.location;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="50" y="170" width="11" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/avatar-128.png;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="475" y="226" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/core-ui-outlined/32/outlined_favourite-128.png;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="518.5" y="262.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/geosm-e-commerce/18/gear-128.png;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="518.5" y="224" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--31" value="&lt;font face=&quot;Segoe UI Light&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Segoe+UI+Light&quot; style=&quot;font-size: 9px;&quot;&gt;Profile&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="465" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--35" value="&lt;font face=&quot;Segoe UI Light&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Segoe+UI+Light&quot; style=&quot;font-size: 9px;&quot;&gt;Favorites&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="515.5" y="274.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--36" value="&lt;font face=&quot;Segoe UI Light&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Segoe+UI+Light&quot; style=&quot;font-size: 9px;&quot;&gt;Preferences&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="508.5" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--37" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/simple-medical/256/Svtethoscope-128.png;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="473.75" y="260" width="22.5" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--38" value="Health Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=9;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="465" y="279" width="47.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=12;fontColor=#3333FF;" edge="1" parent="7_nYSNDwSs5SFmlw5uWX-1" source="tpDQo5Wyh6sioc5v_al--40" target="tpDQo5Wyh6sioc5v_al--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--40" value="Profile Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=12;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="467" y="199" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--49" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="390" y="204" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--50" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="475" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--53" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="540.5" y="150" width="19.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--63" value="&lt;font face=&quot;Segoe UI Light&quot; style=&quot;font-size: 9px&quot;&gt;Load Custom Menu&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="72.5" y="258" width="53.5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--64" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=4.00006103515625;strokeWidth=1;fillColor=#FFFFFF;gradientColor=#ffffff;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=9;fontColor=#3333FF;align=left;strokeColor=#66B2FF;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="560" y="274.5" width="17.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--65" value="Menu Indexed By Location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=9;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="617.25" y="103" width="47.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--66" value="Search Menu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=9;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="661.25" y="99" width="47.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--70" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="581.25" y="233" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--71" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="581.25" y="257.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--73" value="Custom Menu Based on Preferences&lt;br&gt;OR&lt;br&gt;Default Menu for Location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontSize=9;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="584" y="279" width="142" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--75" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0055AB;strokeWidth=3;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="740" y="44" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tpDQo5Wyh6sioc5v_al--76" value="Recommendation Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSegoe%2BUI%2BLight;fontStyle=1" vertex="1" parent="7_nYSNDwSs5SFmlw5uWX-1">
+          <mxGeometry x="750" y="44" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
