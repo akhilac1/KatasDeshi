@@ -10,8 +10,8 @@ Any order cancellation has to be communicated to all relevant services and each 
 
 - PaymentService will do payment reversal for a given order cancellation.
 - InventoryService will take the required action to compensate the transaction as needed.
-- NotificationService will notify user for order cancellation.
-- OrderService will mark the order cancelled.
+- Asynchronous notification to the user for order cancellation.
+- Order Service will mark the order cancelled.
 - Coupon/Promotion Service will roll back the coupon applied.
 - KitchenService, DeviceManagementService etc.
 - TelemetryService will record the order failure.
@@ -45,11 +45,3 @@ Error handling becomes complex in event-driven architecture. Below are the ways 
 - Persisted messages Topics
 - Synchronous send - Synchronous send does a blocking wait in the message producer until the broker has acknowledged that the message has been persisted.
 - Client Acknowledge mode - with message lock duration.
-- 
-A given message can only be delivered to one processor/Thread at any point in time and this message will be locked so that no other process/thread can read this message. Processor will first process the message and then mark the message as processed and this will delete the event from the Subscription queue. In case processor errors out or crashes then message/event will still remain on subscription queue and can be processed later by any other process or thread.
-When the user places an order, accurate price, including tax should be billed to the user and the order should be queued for processing. A notification should be posted to the user, clearly indicating that the order is pending for confirmation. 
-
-Queued Order should be retireved in the same sequence that it was queued [ FIFO ] and validated to ensure food is available both in central inventory and also at the location via the third-party Fridge API/PoS interface. Post confirmation of availability, food should be blocked for the user, against a specific Order code. After successful reservation of food, inventory should be updated and notification should be sent to the PoS/Fridge with details of the order code. 
-
-Post completion of all of the above steps, the user should be sent a confirmation of the order.
-In case of failure of any of the above, Order should be immediately cancelled, with payment refund intiated. User should be notified of the cancellation and SLA for completing the refund.
